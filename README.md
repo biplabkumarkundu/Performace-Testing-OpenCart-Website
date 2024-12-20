@@ -1,7 +1,7 @@
 # Performace-Testing-OpenCart-Website
 # Content
 
-- [Load testing Report](https://github.com/biplabkumarkundu/Performance-Testing-OpenCart-Website#load-testing-report)  
+- [Load testing Report] 
 - [Summary](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#summary)  
 - [Introduction](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#introduction)  
 - [Install](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#install)      
