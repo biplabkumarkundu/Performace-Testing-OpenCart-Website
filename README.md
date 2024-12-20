@@ -1,7 +1,7 @@
 # Performace-Testing-OpenCart-Website
 # Content
 
-- [Load testing Report](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#load-testing-report)  
+- [Load testing Report](https://github.com/biplabkumarkundu/Performance-Testing-OpenCart-Website#load-testing-report)  
 - [Summary](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#summary)  
 - [Introduction](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#introduction)  
 - [Install](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#install)      
@@ -175,47 +175,7 @@ Requests Summary             |  Errors
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![image](https://github.com/user-attachments/assets/3557e30a-bd53-4fbd-b823-0f3a279771c6)  |  ![image](https://github.com/user-attachments/assets/be54af9e-91e5-406b-ad34-48e8ac93c028).
-  
 
-
-# Stress Testing
-
-Stress Testing is a type of software testing that evaluates how the software responds under extreme conditions. It verifies how robust a system will be, and its response capabilities and error handling when it is subjected to conditions where its normal functioning can be compromised.
-
-**Number of Threads 7 ; Ramp-Up Period 10s**
-   
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
-![a]![image](https://github.com/user-attachments/assets/0e7bffbe-79b1-4fd0-bc7c-821c761d3fd1)
- |  ![b](![image](https://github.com/user-attachments/assets/d9b3ff5d-14ba-4752-9666-ac205a2975ae)
-)
-
-  
-
-
-**Number of Threads 8 ; Ramp-Up Period 10s**
-   
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
-![c](https://user-images.githubusercontent.com/92669932/189820654-d0f9744c-d05e-462f-88f7-ba8f91125f29.jpg) | ![d](https://user-images.githubusercontent.com/92669932/189820670-b90a99e7-d44a-47f5-8d66-806e571c1fb4.jpg)    
-
-
-
-**Number of Threads 9 ; Ramp-Up Period 10s**
-   
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
-![e](https://user-images.githubusercontent.com/92669932/189820708-da2be22b-1718-4f9a-a89a-e5235d6d1e82.jpg)  |   ![f](https://user-images.githubusercontent.com/92669932/189820724-4217425e-491d-4177-918b-347e89281b6b.jpg)
-
-# Spike Testing
-
-Spike testing is a type of performance testing where the demand for an application is suddenly and drastically increased or decreased. Spike testing's objective is to ascertain how a software program will behave under highly variable traffic conditions.
-
-**Number of Threads 15 ; Ramp-Up Period 10s**
-   
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
-![s](https://user-images.githubusercontent.com/92669932/189822076-38361a8b-db25-4e43-98f4-2a582d0244fa.jpg) | ![p](https://user-images.githubusercontent.com/92669932/189822103-fdcd8c85-6d17-4135-af20-a700b5bb05d7.jpg)
 
 
 # Read Test Data from CSV file in Jmeter    
