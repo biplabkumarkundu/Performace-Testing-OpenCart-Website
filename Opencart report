@@ -1,1 +1,21 @@
+Extract data for reporting in jmeter
+============================================
+Dear OpenCart, 
 
+I’ve completed performance test on frequently used API for test App. 
+Test executed for the below mentioned scenario in 
+1.(HOME Page) https://www.opencart.com/index.php?route=common/home  =>
+	(FEATURE Page) https://www.opencart.com/index.php?route=cms/feature  =>
+		(MARKECTPLACE Page) https://www.opencart.com/index.php?route=marketplace/extension  =>
+			(ABOUT US Page)	https://www.opencart.com/index.php?route=cms/company  =>
+				(LOGIN Page)  https://www.opencart.com/index.php?route=account/login 
+
+1 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 3.350 ; Total Concurrent API requested: 460 And Error Rate 0%.
+2 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 7.7 ; Total Concurrent API requested: 460 And Error Rate 0%.
+3 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 12 ; Total Concurrent API requested: 690 And Error Rate 0.29%.
+4 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 15.3 ; Total Concurrent API requested: 920 And Error Rate 0.65%.
+
+
+While executed 3 concurrent request, found  636 request got connection timeout and error rate is 0.29%. 
+
+Summary: Server can handle almost concurrent 460 API call with almost zero (0) error rate.
