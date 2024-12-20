@@ -161,25 +161,22 @@ Requests Summary             |  Errors
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![image](https://github.com/user-attachments/assets/d2a0f8f4-ab87-4af3-a688-ce36b522fc30) |  ![image](https://github.com/user-attachments/assets/a287a50f-9ddf-4df9-8e36-c72918410eaa)
+![image](![image](https://github.com/user-attachments/assets/875be6f5-c94d-4fce-b326-48750720a106) |  ![image](![image](https://github.com/user-attachments/assets/cf05fe55-4130-41ad-8304-8178c37afd46)
+)
 
 
 **Number of Threads 3 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![5](![image](https://github.com/user-attachments/assets/bfb244af-d7d9-4559-a803-c7885a2f4f09)
-)  |  ![6](![image](https://github.com/user-attachments/assets/41ee7752-6634-4bd7-bdf7-0786681bddef)
-)
+![image](https://github.com/user-attachments/assets/befdd722-36ae-4eae-b43f-77629065909b))  |  ![image](https://github.com/user-attachments/assets/41ee7752-6634-4bd7-bdf7-0786681bddef)
 
 
 **Number of Threads 4 ; Ramp-Up Period 10s**
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![7](![image](https://github.com/user-attachments/assets/37fef252-f245-457b-946e-16f492cbe6a6)
-)  |  ![8](![image](https://github.com/user-attachments/assets/81beb618-bd22-46b1-ab8c-ccd3060c2cf7)
-)
+![image](https://github.com/user-attachments/assets/3557e30a-bd53-4fbd-b823-0f3a279771c6)  |  ![image](https://github.com/user-attachments/assets/be54af9e-91e5-406b-ad34-48e8ac93c028).
   
 
 
