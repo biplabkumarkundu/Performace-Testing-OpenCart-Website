@@ -27,16 +27,14 @@
 
 | Concurrent Request  | Loop Count | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
 |               :---: |      :---: |                      :---: |                        :---: |      :---: |
-| 1  | 1  | 3.350  | 0%      | 212   |
-| 2  | 1  |  7     | 0%      | 424   |
-| 3  | 1  |  11    | 0.47%   | 636   |
-| 4  | 1  |  14.1  | 0.59%   | 848   |
-| 5  | 1  |  17.6  | 0.94%   | 1060  |
-| 6  | 1  |  20    | 1.18%   | 1272  |
+| 1  | 1  | 3.350  | 0%      | 460   |
+| 2  | 1  |  7.7     | 0%      | 460   |
+| 3  | 1  |  12    | 0.29%   | 690   |
+| 4  | 1  |  15.3  | 0.65%   | 920   |
 
 ### Summary
-- While executed 3 concurrent request, found  636 request got connection timeout and error rate is 0.47%.
-- Server can handle almost concurrent 424 API call with almost zero (0) error rate.
+- While executed 3 concurrent request, found  636 request got connection timeout and error rate is 0.29%.
+- Server can handle almost concurrent 460 API call with almost zero (0) error rate.
 
 
 
@@ -53,7 +51,7 @@ https://www.oracle.com/java/technologies/downloads/
 https://jmeter.apache.org/download_jmeter.cgi  
 
 Click =>Binaries    
-=>**apache-jmeter-5.5.zip**
+=>**apache-jmeter-5.6.3\zip**
 
 **We use BlazeMeter to generate JMX files**    
 https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbohhpnfglgohlbhfongabi?hl=en
@@ -79,7 +77,7 @@ https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbo
 Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on the jMeter version you are using)
 
 - Name: Users
-- Number of Threads (users): 1 to 6
+- Number of Threads (users): 1 to 4
 - Ramp-Up Period (in seconds): 10
 - Loop Count: 1  
 
@@ -95,7 +93,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 
 - Run BlazeMeter  
 - Collect Frequently used API  
-- Save JMX file then paste => **apache-jmeter-5.5\bin**
+- Save JMX file then paste => **apache-jmeter-5.6.3\bin**
 
     ### List of API 
 
@@ -123,22 +121,11 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 - Make a report folder in the **bin** folder.  
 - Run Command in __jmeter\bin__ folder. 
 
- ### Make csv file    
- 
-   - **n**: non GUI mode
-  - **t**: test plan to execute
-  - **l**: output file with results   
-
-```bash
-  jmeter -n -t  OPENCART_T1.jmx -l OPENCART_T1.csv
-```   
-![csvfile](https://user-images.githubusercontent.com/92669932/197028552-faf7d3e6-d74a-46fc-b4d2-750c244f2a5e.jpg)
-
 
  ### Make jtl file
 
 ```bash
-  jmeter -n -t  OPENCART_T1.jmx -l OPENCART_T1.jtl
+  jmeter -n -t  Opencart_t1.jmx -l Opencart_t1.jtl
 ```      
   Then continue to upgrade Threads(1 to 6) by keeping Ramp-up Same.   
   
@@ -150,7 +137,7 @@ After completing this command
    ### Make html file   
   
   ```bash
-  jmeter -g report\OPENCART_T1.jtl -o OPENCART_T1.html
+  jmeter -g report\Opencart_t1.jtl -o Opencart_t1.html
 ```
  
 
@@ -189,20 +176,7 @@ Requests Summary             |  Errors
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![7](https://user-images.githubusercontent.com/92669932/189543865-5acac49a-e858-4ce0-95ce-92500d1a1cf0.jpg)  |  ![8](https://user-images.githubusercontent.com/92669932/189543871-749aaf77-1639-4de4-9f59-5476c63ced98.jpg)
-
-
-**Number of Threads 5 ; Ramp-Up Period 10s**
-   
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
-![9](https://user-images.githubusercontent.com/92669932/189543881-995a888b-c63b-4f38-8b42-d21140704dfc.jpg)  |  ![10](https://user-images.githubusercontent.com/92669932/189543883-8229a05a-6a96-41da-85c8-d8ae587ebcae.jpg)
-
-
-**Number of Threads 6 ; Ramp-Up Period 10s**
-   
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
- ![11](https://user-images.githubusercontent.com/92669932/189543896-bba2da13-370e-438c-84e9-88439c8e307e.jpg) |  ![12](https://user-images.githubusercontent.com/92669932/189543902-851bd50a-95a7-435e-8df2-a6c615786109.jpg)   
+  
 
 
 # Stress Testing
@@ -213,7 +187,9 @@ Stress Testing is a type of software testing that evaluates how the software res
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![a](https://user-images.githubusercontent.com/92669932/189820373-01f812aa-acaa-47fc-a7f2-91e813e23a4a.jpg) |  ![b](https://user-images.githubusercontent.com/92669932/189820402-fcef18b3-cd47-4b60-8ee1-87e1a7e59a01.jpg)
+![a]![image](https://github.com/user-attachments/assets/0e7bffbe-79b1-4fd0-bc7c-821c761d3fd1)
+ |  ![b](![image](https://github.com/user-attachments/assets/d9b3ff5d-14ba-4752-9666-ac205a2975ae)
+)
 
   
 
