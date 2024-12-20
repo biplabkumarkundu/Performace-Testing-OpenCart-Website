@@ -161,7 +161,7 @@ Requests Summary             |  Errors
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![image](![image](https://github.com/user-attachments/assets/875be6f5-c94d-4fce-b326-48750720a106) |  ![image](![image](https://github.com/user-attachments/assets/cf05fe55-4130-41ad-8304-8178c37afd46)
+![image](https://github.com/user-attachments/assets/875be6f5-c94d-4fce-b326-48750720a106) |  ![image](https://github.com/user-attachments/assets/cf05fe55-4130-41ad-8304-8178c37afd46)
 )
 
 
@@ -169,7 +169,7 @@ Requests Summary             |  Errors
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![image](https://github.com/user-attachments/assets/befdd722-36ae-4eae-b43f-77629065909b))  |  ![image](https://github.com/user-attachments/assets/41ee7752-6634-4bd7-bdf7-0786681bddef)
+![image](https://github.com/user-attachments/assets/d0913bb2-0d21-4e6d-9e52-a50640174b5a) |  ![image](https://github.com/user-attachments/assets/41ee7752-6634-4bd7-bdf7-0786681bddef)
 
 
 **Number of Threads 4 ; Ramp-Up Period 10s**
@@ -219,16 +219,6 @@ Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![s](https://user-images.githubusercontent.com/92669932/189822076-38361a8b-db25-4e43-98f4-2a582d0244fa.jpg) | ![p](https://user-images.githubusercontent.com/92669932/189822103-fdcd8c85-6d17-4135-af20-a700b5bb05d7.jpg)
 
-# Endurance Testing
-An application may be put through endurance testing to see if it can handle the processing load that will be placed on it over an extended period of time. Memory usage is tracked throughout endurance tests to identify potential issues.   
-
-**Start Threads count 6s ; Initial Delay 0s ; Start up Time 10s ; Hold load for 600s ; Shutdown Time 0s**     
-
-Requests Summary             |  Errors
-:-------------------------:|:-------------------------:
-![e](https://user-images.githubusercontent.com/92669932/189861431-3843b069-8a12-4e38-b527-2a28700f7bf9.jpg) | ![f](https://user-images.githubusercontent.com/92669932/189861468-84b0bd3c-1531-4a30-a7b2-9d9f59964823.jpg)
-
-![t](https://user-images.githubusercontent.com/92669932/189866938-ce1e11e2-9720-4c4f-91a6-6c79e450632b.jpg)
 
 # Read Test Data from CSV file in Jmeter    
 
