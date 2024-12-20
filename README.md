@@ -1,7 +1,7 @@
 # Performace-Testing-OpenCart-Website
 # Content
 
-- [Load testing Report](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#load-testing-report)  
+- [Load testing Report](https://github.com/biplabkumarkundu/Performance-testing-for-OpenCart-Website#load-testing-report)  
 - [Summary](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#summary)  
 - [Introduction](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#introduction)  
 - [Install](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#install)      
@@ -16,8 +16,6 @@
 - [Make html File](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#make-html-file)  
 - [HTML Report](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#html-report) 
 - [Stress Testing](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#stress-testing)    
-- [Spike Testing](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#spike-testing)      
-- [Endurance Testing](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#endurance-testing)
 - [Read Test Data from CSV file in Jmeter](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#read-test-data-from-csv-file-in-jmeter)
 
 
