@@ -161,9 +161,7 @@ Requests Summary             |  Errors
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
-![image](https://github.com/user-attachments/assets/d2a0f8f4-ab87-4af3-a688-ce36b522fc30
-) |  ![image](https://github.com/user-attachments/assets/a287a50f-9ddf-4df9-8e36-c72918410eaa
-)
+![image](https://github.com/user-attachments/assets/d2a0f8f4-ab87-4af3-a688-ce36b522fc30) |  ![image](https://github.com/user-attachments/assets/a287a50f-9ddf-4df9-8e36-c72918410eaa)
 
 
 **Number of Threads 3 ; Ramp-Up Period 10s**
